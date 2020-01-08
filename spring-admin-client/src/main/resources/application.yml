@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: spring-admin-client
+  main:
+    banner-mode: off
+  boot:
+    admin:
+      client:
+        url: http://localhost:8787
+server:
+  port: 8788

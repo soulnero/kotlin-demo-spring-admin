@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: spring-admin-server
+  main:
+    banner-mode: off
+
+server:
+  port: 8787
