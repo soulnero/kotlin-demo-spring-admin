@@ -1,0 +1,15 @@
+spring:
+  boot:
+    admin:
+      client:
+        instance:
+          metadata:
+            user.name: ${spring.security.user.name}
+            user.password: ${spring.security.user.password}
+        username: "sba_server"
+        password: "sba_server_123"
+
+  security:
+    user:
+      name: "sba_client"
+      password: "sba_client_123"

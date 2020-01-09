@@ -1,0 +1,8 @@
+spring:
+  profiles: secure
+  security:
+    user:
+      name: "sba_server"
+      password: "sba_server_123"
+
+info.tags.security: secured

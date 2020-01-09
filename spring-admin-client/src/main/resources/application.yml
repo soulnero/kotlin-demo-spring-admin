@@ -1,8 +1,11 @@
 spring:
-  profiles:
-    active: spring-admin-client
+  application:
+    name: spring-admin-client
   main:
     banner-mode: off
+  profiles:
+    active:
+      - secure
   boot:
     admin:
       client:

@@ -1,8 +1,19 @@
 spring:
-  profiles:
-    active: spring-admin-server
+  application:
+    name: spring-admin-server
   main:
     banner-mode: off
+  profiles:
+    active:
+      - secure
 
 server:
   port: 8787
+
+---
+
+spring:
+  profiles: insecure
+
+info.tags.security: insecure
+
